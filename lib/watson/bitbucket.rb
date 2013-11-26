@@ -110,6 +110,7 @@ module Watson
       end
 
       # HTTP Request to check if Repo exists and user has access
+      # [todo] - Check out BitBucket APIs to use in other projects
       # http://confluence.atlassian.com/display/BITBUCKET/Use+the+Bitbucket+REST+APIs
 
       # Create options hash to pass to Remote::http_call
